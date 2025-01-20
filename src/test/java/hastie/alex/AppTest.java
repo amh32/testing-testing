@@ -1,4 +1,4 @@
-package src.test.java;
+package hastie.alex;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
