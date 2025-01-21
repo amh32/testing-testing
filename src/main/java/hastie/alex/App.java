@@ -8,18 +8,10 @@ public final class App {
     int b = 3;
     int c;
 
-    //constructor to used for initialization if necessary
-    private App() {
-    }
-    
-
     /** An arbitrary equation for result testing */
-    static void mathTest(int a, int b) { 
-        
-        App anApp = new App();
-
-        anApp.c = a * b;
-        System.out.println(anApp.c);
+    public void mathTest(int a, int b) { 
+        c = a * b;
+        // System.out.println(c);
     }
 
     /**
@@ -30,6 +22,6 @@ public final class App {
      public static void main(String[] args) {
         System.out.println("Hellow World");
         App anApp = new App();
-        mathTest(anApp.a, anApp.b);
+        anApp.mathTest(anApp.a, anApp.b);
     }
 }

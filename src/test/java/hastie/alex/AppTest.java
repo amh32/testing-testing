@@ -13,6 +13,12 @@ class AppTest {
     @Test
     void testApp() {
         assertEquals(1, 1);
-        
+    }
+
+    @Test
+    void basicMathTest() {
+        App testApp = new App();
+        testApp.mathTest(testApp.a,testApp.b);
+        assertEquals(21, testApp.c);
     }
 }
